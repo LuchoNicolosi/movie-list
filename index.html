@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/netflix.png" />
+    <title>Lista de peliculas</title>
+  </head>
+  <body>
+    <div class="fondo">
+      <div class="logo"></div>
+    </div>
+
+    <div class="todos">
+      <div>
+        <h1>Lista de peliculas</h1>
+        <div class="form-container">
+          <form class="todos-form" name="todos">
+            <input type="text" placeholder="Que peli vas a ver?" name="todo" />
+            <button class="add-btn">+</button>
+            <div class="invalid">Escribi algo pa!!!</div>
+          </form>
+        </div>
+
+        <div>
+          <ul class="todos-list"></ul>
+        </div>
+
+        <div>
+          <button type="button" class="delete-all" style="display: none">
+            Borrar todo
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
